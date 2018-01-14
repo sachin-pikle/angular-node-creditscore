@@ -10,6 +10,7 @@ metadata:
     run: rest-jscreditscore
 spec:
   replicas: 1
+  revisionHistoryLimit: 1
   strategy:
     rollingUpdate:
       maxSurge: 1
